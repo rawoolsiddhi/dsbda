@@ -1,0 +1,5 @@
+hadoop jar path/to/hadoop-streaming.jar \
+-mapper path/to/map/mapper.py \
+-reducer path/to/reduce/reducer.py \
+-input input/log \
+-output output
